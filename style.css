@@ -18,11 +18,16 @@ body {
     padding: 20px;
     margin-bottom: 10px;
     margin-top: 10px;
+    padding-top: 40px;
+    padding-bottom: 40px;
 }
 
 .nav {
     background-color: pink;
     padding: 20px;
+    padding-top: 40px;
+    padding-bottom:40px;
+    margin-bottom: 10px;
 }.wrapper {
     display: -webkit-flex; /* Safari */
     display: flex;
@@ -30,6 +35,8 @@ body {
 .section {
     background-color: orange;
     float: left;
+    padding-top: 30px;
+    padding-bottom: 30px;
     padding: 10px 0;
     width: 495px;
     min-width: 495px;
@@ -50,14 +57,18 @@ body {
     -ms-flex: 1;  /* IE 10 */    
     flex: 1;
     margin-top: 10px;
-    
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 .footer {
     background-color: purple;
     padding: 20px;
     clear: both;
-    margin-bottom: 100px;
+    margin-top: 10px;
+    margin-bottom: 40px;
+    padding-top: 40px;
+    padding-bottom: 40px;
     
 }
 
